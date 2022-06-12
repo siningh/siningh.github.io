@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>About - JARTHON</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="head-logo flex-col-8">
+        <img src="images/logo/logoonly.png" class="logo-header" />
+      </div>
+      <div class="web-name flex-col-4">
+        <h3>JARTHON</h3>
+        <p>Hype Sneaker Store</p>
+      </div>
+      <nav class="flex-col-2">
+        <ul id="MenuItems">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="catalog.html">CATALOG</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+        </ul>
+      </nav>
+      <img
+        src="images/logo/menu.png"
+        class="menu-icon"
+        onclick="menutoggle()"
+      />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="flex-col-3">
+          <div class="items">
+            <img src="images/arth.jpg" alt="" class="aboutimg" />
+            <h5>Arth Hendrick Toriaga</h5>
+            <p class="price-desc">BSIT-3B</p>
+            <a
+              href="https://www.facebook.com/sininghhhhh"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/sininghhhh"
+              class="fa fa-instagram"
+            ></a>
+            <div class="tooltip">
+              <i class="fa fa-google" aria-hidden="true"></i>
+              <span class="tooltiptext">arthhendrick.toriaga@cvsu.edu.ph</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex-col-3">
+          <div class="items">
+            <img src="images/jaynus.jpg" alt="" class="aboutimg" />
+            <h5>Efren Jaynus Esperanza</h5>
+            <p class="price-desc">BSIT-3B</p>
+            <a
+              href="https://www.facebook.com/Jaynusesperanza.9"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/jaaynus"
+              class="fa fa-instagram"
+            ></a>
+            <div class="tooltip">
+              <i class="fa fa-google" aria-hidden="true"></i>
+              <span class="tooltiptext">efrenjaynus.esperanza@cvsu.edu.ph</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex-col-3">
+          <div class="items">
+            <img src="images/lyndon.jpg" alt="" class="aboutimg" />
+            <h5>John Lyndon Israel Sayos</h5>
+            <p class="price-desc">BSIT-3B</p>
+            <a
+              href="https://www.facebook.com/lyndon.sayos"
+              class="fa fa-facebook"
+            ></a>
+            <a
+              href="https://www.instagram.com/lyndon.sayos "
+              class="fa fa-instagram"
+            ></a>
+            <div class="tooltip">
+              <i class="fa fa-google" aria-hidden="true"></i>
+              <span class="tooltiptext"
+                >johnlyndonisrael.sayos@cvsu.edu.ph</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="foot-logo flex-col-8">
+            <img src="images/logo/logoonly.png" class="logo-footer" />
+          </div>
+          <div class="web-name flex-col-4">
+            <h3>JARTHON</h3>
+            <p style="color: white">Hype Sneaker Store</p>
+            <p style="font-size: 14px">
+              Our purpose is to bring you the best footwear we can offer based
+              on your liking. Happy shopping!
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Gmail</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Made by</h3>
+            <ul>
+              <li>Arth Toriaga</li>
+              <li>Jaynus Esperanza</li>
+              <li>Lyndon Sayos</li>
+              <li>of BSIT-3B</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var MenuItems = document.getElementById("MenuItems");
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

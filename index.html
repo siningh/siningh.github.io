@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+
+    <title>Home - JARTHON</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="head-logo flex-col-8">
+        <img src="images/logo/logoonly.png" class="logo-header" />
+      </div>
+      <div class="web-name flex-col-4">
+        <h3>JARTHON</h3>
+        <p>Hype Sneaker Store</p>
+      </div>
+      <nav class="flex-col-2">
+        <ul id="MenuItems">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="catalog.html">CATALOG</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+        </ul>
+      </nav>
+      <img
+        src="images/logo/menu.png"
+        class="menu-icon"
+        onclick="menutoggle()"
+      />
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>ADD TO CART</h2>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="item-left flex-col-3">
+              <img
+                src="images/airjordan1lowGreen.jpg"
+                alt=""
+                class="item-img"
+              />
+            </div>
+            <div class="item-right flex-col-2">
+              <h6>Adult</h6>
+              <h5>AIR JORDAN 1 LOW (Green)</h5>
+              <p class="price-desc">P6500</p>
+              <button type="submit" class="add-to-cart" onclick="addCart()">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="welcome-header">
+      <div class="row">
+        <div class="header-quote flex-col-2">
+          <h1>
+            "Everything negative - pressure, challenges - are all an opportunity
+            for me to rise" - Kobe Bryant
+          </h1>
+          <p>
+            "If you're trying to achieve, there will be roadblocks. I've had
+            them. But obstacles don't have to stop you. If you run into a wall,
+            don't turn around and give up. Figure out how to climb it, go
+            through it, or work around it." - Michael Jordan
+          </p>
+          <a href="catalog.html">Shop Now! &#8594;</a>
+        </div>
+        <div class="header-img flex-col-2">
+          <img src="images/headerbbplayer.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h3>FEATURED ITEMS</h3>
+      <div class="items-container">
+        <div class="items">
+          <img src="images/Adult/aj1lowroyaltoe.jpg" alt="" class="" />
+          <h6>Adult</h6>
+          <h5>AIR JORDAN 1 LOW "Royal Toe"</h5>
+          <p class="price-desc">P6800</p>
+        </div>
+        <div class="items">
+          <img src="images/Adult/aj4blackred.jpg" alt="" class="" />
+          <h6>Adult</h6>
+          <h5>AIR JORDAN 4 "Black Red"</h5>
+          <p class="price-desc">P20500</p>
+        </div>
+        <div class="items">
+          <img src="images/Kids/addyb350clay.jpg" alt="" class="" />
+          <h6>Kids</h6>
+          <h5>ADIDAS YEEZY BOOST 350 V2 "Clay"</h5>
+          <p class="price-desc">P15000</p>
+        </div>
+        <div class="items">
+          <img src="images/Kids/aj1lowbredtoe.jpg" alt="" class="" />
+          <h6>Kids</h6>
+          <h5>AIR JORDAN 1 LOW "Bred Toe"</h5>
+          <p class="price-desc">P14000</p>
+        </div>
+        <div class="items">
+          <img src="images/Adult/aj6infrared.jpg" alt="" class="" />
+          <h6>Adult</h6>
+          <h5>AIR JORDAN 4 "Infrared"</h5>
+          <p class="price-desc">P16500</p>
+        </div>
+        <div class="items">
+          <img src="images/Kids/naf1tripleblack.png" alt="" class="" />
+          <h6>Kids</h6>
+          <h5>NIKE AIR FORCE 1 "Triple Black"</h5>
+          <p class="price-desc">P6000</p>
+        </div>
+        <div class="items">
+          <img src="images/Adult/aj4whitecement.jpg" alt="" class="" />
+          <h6>Adult</h6>
+          <h5>AIR JORDAN 4 "White Cement"</h5>
+          <p class="price-desc">P30000</p>
+        </div>
+        <div class="items">
+          <img src="images/Kids/aj6carmine.jpg" alt="" class="" />
+          <h6>Kids</h6>
+          <h5>AIR JORDAN 6 "Carmine"</h5>
+          <p class="price-desc">P15000</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="foot-logo flex-col-8">
+            <img src="images/logo/logoonly.png" class="logo-footer" />
+          </div>
+          <div class="web-name flex-col-4">
+            <h3>JARTHON</h3>
+            <p style="color: white">Hype Sneaker Store</p>
+            <p style="font-size: 14px">
+              Our purpose is to bring you the best footwear we can offer based
+              on your liking. Happy shopping!
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Gmail</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Made by</h3>
+            <ul>
+              <li>Arth Toriaga</li>
+              <li>Jaynus Esperanza</li>
+              <li>Lyndon Sayos</li>
+              <li>of BSIT-3B</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var MenuItems = document.getElementById("MenuItems");
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+
+      var modal = document.getElementById("myModal");
+      var span = document.getElementsByClassName("close")[0];
+      var items = document.getElementsByClassName("items"); //all items class array
+      const itemimage = document.querySelectorAll(".items img"); // all items image array
+      const itemname = document.querySelectorAll(".items h5");
+      const itemprice = document.querySelectorAll(".items .price-desc");
+
+      const modalimg = document.querySelector(".item-left img");
+      const modalname = document.querySelector(".item-right h5");
+      const modalprice = document.querySelector(".item-right .price-desc");
+
+      //ALERT ONCLICK
+      function addCart() {
+        alert(
+          "Successfully added to cart! \nName: " +
+            modalname.innerHTML +
+            "\nPrice: " +
+            modalprice.innerHTML +
+            "\n\n sorry sir alaws backend hehe"
+        );
+      }
+      //Assign onclick on every item
+      for (var i = 0; i < items.length; i++) {
+        (function (index) {
+          items[i].onclick = function () {
+            modal.style.display = "block";
+            modalimg.src = itemimage[index].src; //match modal image into selected item
+            modalname.innerHTML = itemname[index].innerHTML;
+            modalprice.innerHTML = itemprice[index].innerHTML;
+          };
+        })(i);
+        //items[i].onclick = log(i);
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>

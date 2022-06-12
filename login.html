@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - JARTHON!</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="head-logo flex-col-8">
+        <img src="images/logo/logoonly.png" class="logo-header" />
+      </div>
+      <div class="web-name flex-col-4">
+        <h3>JARTHON</h3>
+        <p>Hype Sneaker Store</p>
+      </div>
+      <nav class="flex-col-2">
+        <ul id="MenuItems">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="catalog.html">CATALOG</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="login.html">LOGIN</a></li>
+        </ul>
+      </nav>
+      <img
+        src="images/logo/menu.png"
+        class="menu-icon"
+        onclick="menutoggle()"
+      />
+    </div>
+
+    <div class="login-box">
+      <div class="login-image-left">
+        <img src="images/jordan1shoes.jpg" alt="" />
+      </div>
+      <div class="login-form-right">
+        <p class="login-label">Log In</p>
+        <form action="" method="post" class="formbox">
+          <input
+            type="text"
+            name="Login"
+            class="login-text-box"
+            placeholder="Username"
+          />
+          <input
+            type="password"
+            name="Login"
+            class="login-text-box"
+            placeholder="Password"
+          />
+          <br />
+          <br />
+          <input type="button" value="Log In" class="login-button" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
